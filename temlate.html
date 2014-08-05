@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<title>Kikrisis</title>
+<link href='main.css' rel='stylesheet'>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="bodyLoad()">
+	<table style="height:100%;width:100%;max-height:100%;" cellspacing='0' cellpadding='0'><tr style="height:110px;"><td id='logo'>
+		<img src='KIKRISIS_logo.png' id="logoImg" onclick="window.location.href='index.html';" />
+	</td><td id='upNav'>
+		<table cellspacing='0' cellpadding='0'><tr>
+			<td class='sep'><input type='text' style='width:500px;' id='search' /><input type='button' value='Search' id='btnSearch' /> </td>
+			<td class='sep'><input type='button' value='New Item' class='btn' onclick="window.location.href='newItem.html';"  /></td>
+			<td class='sep last'>Welcome, <b>username</b>!<br><input type='button' value='Sign Out' class='btn' /></td>
+		</tr></table>
+	</td></tr><tr><td id='leftNav'>
+		<table cellspacing='0' cellpadding='0'>
+			<tr><td class='sep last'>
+				<h2>Pages</h2>
+				<ul>
+					<li><a href='aboutus.html'>About Us</a></li>
+					<li><a href='contactus.html'>Contact Us</a></li>
+				</ul>
+				<h2>Categories</h2>
+				<ul>
+					<li><a href='catHurricane.html'>Hurricane</a></li>
+					<li><a href='catFire.html'>Fire</a></li>
+					<li><a href='catTsunami.html'>Tsunami</a></li>
+				</ul>
+			</td></tr>
+		</table>
+	</td><td id="content" valign="top">
+			<div >
+			<!-- Add main content here -->
+			</div>
+	</td></tr></table>
+</body>
+</html>
