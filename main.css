@@ -1,6 +1,7 @@
 
 body {
 	font-family:arial;
+	background:url("blue_gradient_background.jpg");
 }
 #logo {
 	/*border:1px solid black;*/
@@ -88,7 +89,7 @@ body {
 				color: #4677C7;
 			}
 			.inputs {
-				width:500px;
+				width:500px !important;
 			}
 			.jianaTable {
 				border-bottom:1px solid #4677C7;
@@ -97,21 +98,29 @@ body {
 			}
 /* yoni code */
 .home{
-	background:white;
+	background:transparent;
 }
 .home:hover {
 	background:#357ebd;
 	transition:background 1s;
 	border-radius: 5px;
 }
-					.yoniTable {
-						margin-top:82px;
-						margin-left:100px;
-						width:630px !important;
-					}
-					.image {
-						width:200px;height:100px;
-					}
-					.rate {
-						width:20px;height:20px;
-					}
+.yoniTable {
+	margin-top:82px;
+	margin-left:85px;
+	width:760px !important;
+}
+.image {
+	width:300px;height:150px;
+}
+.rate {
+	width:20px;height:20px;
+}
+iframe {
+	border-radius:15px;
+}
+/* marah code */
+.marahTable {
+	margin-left:150px;
+	margin-top: 75px;
+}
