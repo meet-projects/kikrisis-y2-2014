@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<title>Kikrisis|Home</title>
+<link href='main.css' rel='stylesheet'>
+<link href='css/bootstrap.css' rel='stylesheet'>
+<link rel='shortcut icon' href='favicon.ico'>
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="bodyLoad()">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Search results</h4>
+      </div>
+      <div class="modal-body" id='mymodaltext'>
+        dfwfwe
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<table style="height:100%;width:100%;max-height:100%;" cellspacing='0' cellpadding='0'><tr style="height:110px;"><td id='logo'>
+		<img src='kikrisis_logo.png' id="logoImg" onclick="window.location.href='index.html';" />
+	</td><td id='upNav'>
+		<table cellspacing='0' cellpadding='0'><tr>
+			<td class='sep'><input type='text' style='width:500px;' id='search' placeholder='Search for items...' class='form-control btn' /><input type='button' value='Search' id='btnSearch' class='btn btn-primary' /> </td>
+			<td class='sep'><input type='button' value='New Item' class='btn btn-primary' onclick="window.location.href='newItem.html';"  /></td>
+			<td class='sep last'>Welcome, <b>username</b>!<br><input type='button' value='Sign Out' class='btn btn-default' /></td>
+		</tr></table>
+	</td></tr><tr><td id='leftNav'>
+		<table cellspacing='0' cellpadding='0'>
+			<tr><td class='sep last'>
+				<h2>Pages</h2>
+				<ul class="nav nav-pills nav-stacked">
+				  	<li><a href="index.html">Home</a></li>
+					<li><a href='aboutus.html'>About Us</a></li>
+					<li><a href='contactus.html'>Contact Us</a></li>
+				</ul>
+				<h2>Categories</h2>
+				<ul class="nav nav-pills nav-stacked">
+					<li><a href='catHurricane.html'>Hurricane</a></li>
+					<li><a href='catFire.html'>Fire</a></li>
+					<li class="active"><a href='catTsunami.html'>Tsunami</a></li>
+				</ul>
+			</td></tr>
+		</table>
+	</td><td id="content" valign="top">
+			<div>
+			<!-- <a href="http://kikrisis.com">New products</a>
+		<p></p>
+		<button type="button">></button>!-->
+		<p></p>
+		<iframe src="http://free.timeanddate.com/clock/i49smk3u/n110/tlil/fs18/tt0" frameborder="0" width="365" height="23"></iframe>
+		<div class="table-responsive">
+			<table class="table yoniTable">
+				<tr class="active">
+				<td><center><button type="button" class='btn'>New</button></center></td>
+				<td><center><button type="button" class='btn'>Popular</button></center></td>
+				<td><center><button type="button" class='btn'>Best Rated</button></center></td>
+				</tr>
+				<tr>
+				<td class="home"><img src="images/img3.png"  class='image'><br> Worldwide GPS <br><img src="like.png" class='rate'> 2000 <img src="unlike.png" class='rate'> 2100</td>
+				<td class="home"><img src="images/img4.jpg" class='image'><br>First aid kit<br><img src="like.png" class='rate'> 20 <img src="unlike.png" class='rate'> 21</td>
+				<td class="home"><img src="images/img6.jpg"  class='image'><br>Breathing gas <br><img src="like.png" class='rate'> 2000 <img src="unlike.png" class='rate'> 2100</td>
+				</tr>
+			</table>
+		</div>
+	</td></tr></table>
+</body>
+</html>

@@ -101,7 +101,18 @@ body {
 	background:white;
 }
 .home:hover {
-	background:#00e1ff;
+	background:#357ebd;
 	transition:background 1s;
 	border-radius: 5px;
 }
+					.yoniTable {
+						margin-top:82px;
+						margin-left:100px;
+						width:630px !important;
+					}
+					.image {
+						width:200px;height:100px;
+					}
+					.rate {
+						width:20px;height:20px;
+					}
