@@ -1,8 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
     <title>About Us</title>
 
-    <link href="AboutUs.css" rel="stylesheet">
+    <link href="aboutcss.css" rel="stylesheet">
 
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="Cover%20Template%20for%20Bootstrap_files/ie-emulation-modes-warning.js"></script>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="Cover%20Template%20for%20Bootstrap_files/ie10-viewport-bug-workaround.js"></script>
@@ -25,7 +37,19 @@
         <div class="cover-container">
 		<h1>About Us</h1>
 
-          
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand"></h3>
+              <ul class="nav masthead-nav">
+		
+		<!--BACK TO HOME PAGE BOTTON!-->
+                <li class="active"><a href="#">Home</a></li>
+		
+		<!--CONTACT US BOTTON!-->
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
 
           <div class="inner cover">
             <h1 class="cover-heading">A few words about the website... </h1>
@@ -33,6 +57,12 @@
             <p class="lead">
               
             </p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="http://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
           </div>
 
         </div>
