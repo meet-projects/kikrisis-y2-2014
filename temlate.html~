@@ -26,7 +26,7 @@
   </div>
 </div>
 	<table style="height:100%;width:100%;max-height:100%;" cellspacing='0' cellpadding='0'><tr style="height:110px;"><td id='logo'>
-		<img src='kikrisis_logo.png' id="logoImg" onclick="window.location.href='index.html';" />
+		<img src='KIKRISIS_logo.png' id="logoImg" onclick="window.location.href='index.html';" />
 	</td><td id='upNav'>
 		<table cellspacing='0' cellpadding='0'><tr>
 			<td class='sep'><input type='text' style='width:500px;' id='search' placeholder='Search for items...' class='form-control btn' /><input type='button' value='Search' id='btnSearch' class='btn btn-primary' /> </td>
