@@ -3,7 +3,7 @@ body {
 	font-family:arial;
 }
 #logo {
-	border:1px solid black;
+	/*border:1px solid black;*/
 	padding:5px;
 }
 #upNav table, #leftNav table {
@@ -11,7 +11,7 @@ body {
 	height:100%;
 }
 #upNav {
-	border:1px solid black;
+	/*border:1px solid black;*/
 	padding:0px;
 	height:100px;
 	width:80%;
@@ -19,7 +19,7 @@ body {
 	border-left: none !important;
 }
 #upNav .sep {
-	border-right:1px solid black;
+	/*border-right:1px solid black;*/
 	height:105px;
 	display:inline-block;
 	margin:0px;
@@ -32,11 +32,10 @@ body {
 }
 #leftNav {
 	width:20%;
-	border:1px solid black;
 	height:100%;
 	margin:0px;
 	padding:0px;
-	border-top: none !important;
+	/*border-top: none !important;*/
 }
 #leftNav .sep {
 	border-bottom:1px solid black;
