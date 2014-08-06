@@ -1,7 +1,7 @@
 function bodyLoad() {
 	var btn=document.getElementById("btnSearch");
 	btn.onclick = function() {
-		var names = ['Winter hat','Fire extinguisher', 'Worldwide GPS', 'First aid kit', 'Flashlight', 'item 6'];
+		var names = ['Winter hat','Fire extinguisher', 'Worldwide GPS', 'First aid kit', 'Flashlight', 'Breathing gas'];
 		var terms = document.getElementById("search").value;
 		if (terms=="") return;
 		var match = "The following items match your search : ";
