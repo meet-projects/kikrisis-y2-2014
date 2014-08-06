@@ -1,7 +1,13 @@
-
-    <title>About Us</title>
-
-    <link href="AboutUs.css" rel="stylesheet">
+<!doctype html>
+<html>
+<head>
+<title>Kikrisis - About Us</title>
+<link href='main.css' rel='stylesheet'>
+<link href='css/bootstrap.css' rel='stylesheet'>
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<link href="AboutUs.css" rel="stylesheet">
 
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -14,11 +20,51 @@
     <![endif]-->
   <style type="text/css" id="holderjs-style">
 	</style>
-	</head>
-
-  <body>
-
-    <div class="site-wrapper">
+</head>
+<body onload="bodyLoad()">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Search results</h4>
+      </div>
+      <div class="modal-body" id='mymodaltext'>
+        dfwfwe
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<table style="height:100%;width:100%;max-height:100%;" cellspacing='0' cellpadding='0'><tr style="height:110px;"><td id='logo'>
+		<img src='kikrisis_logo.png' id="logoImg" onclick="window.location.href='index.html';" />
+	</td><td id='upNav'>
+		<table cellspacing='0' cellpadding='0'><tr>
+			<td class='sep'><input type='text' style='width:500px;' id='search' placeholder='Search for items...' class='form-control btn' /><input type='button' value='Search' id='btnSearch' class='btn btn-primary' /> </td>
+			<td class='sep'><input type='button' value='New Item' class='btn btn-primary' onclick="window.location.href='newItem.html';"  /></td>
+			<td class='sep last'>Welcome, <b>username</b>!<br><input type='button' value='Sign Out' class='btn btn-default' /></td>
+		</tr></table>
+	</td></tr><tr><td id='leftNav'>
+		<table cellspacing='0' cellpadding='0'>
+			<tr><td class='sep last'>
+				<h2>Pages</h2>
+				<ul class="nav nav-pills nav-stacked">
+				  	<li class="active"><a href="index.html">Home</a></li>
+					<li><a href='aboutus.html'>About Us</a></li>
+					<li><a href='contactus.html'>Contact Us</a></li>
+				</ul>
+				<h2>Categories</h2>
+				<ul class="nav nav-pills nav-stacked">
+					<li><a href='catHurricane.html'>Hurricane</a></li>
+					<li><a href='catFire.html'>Fire</a></li>
+					<li><a href='catTsunami.html'>Tsunami</a></li>
+				</ul>
+			</td></tr>
+		</table>
+	</td><td id="content" valign="top">
+			<div class="site-wrapper">
 
       <div class="site-wrapper-inner">
 
@@ -49,4 +95,7 @@
     <script src="Cover%20Template%20for%20Bootstrap_files/docs.js"></script>
   
 
-<div data-original-title="Copy to clipboard" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" class="global-zeroclipboard-container" id="global-zeroclipboard-html-bridge">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" height="100%" width="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1407314991208">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="Cover%20Template%20for%20Bootstrap_files/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit" height="100%" width="100%">                </object></div></body></html>
+<div data-original-title="Copy to clipboard" title="" style="position: absolute; left: 0px; top: -9999px; width: 15px; height: 15px; z-index: 999999999;" class="global-zeroclipboard-container" id="global-zeroclipboard-html-bridge">      <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" id="global-zeroclipboard-flash-bridge" height="100%" width="100%">         <param name="movie" value="/assets/flash/ZeroClipboard.swf?noCache=1407314991208">         <param name="allowScriptAccess" value="sameDomain">         <param name="scale" value="exactfit">         <param name="loop" value="false">         <param name="menu" value="false">         <param name="quality" value="best">         <param name="bgcolor" value="#ffffff">         <param name="wmode" value="transparent">         <param name="flashvars" value="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com">         <embed src="Cover%20Template%20for%20Bootstrap_files/ZeroClipboard.swf" loop="false" menu="false" quality="best" bgcolor="#ffffff" name="global-zeroclipboard-flash-bridge" allowscriptaccess="sameDomain" allowfullscreen="false" type="application/x-shockwave-flash" wmode="transparent" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="trustedOrigins=getbootstrap.com%2C%2F%2Fgetbootstrap.com%2Chttp%3A%2F%2Fgetbootstrap.com" scale="exactfit" height="100%" width="100%">                </object></div>
+	</td></tr></table>
+</body>
+</html>

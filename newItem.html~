@@ -1,38 +1,65 @@
 <!doctype html>
 <html>
-	<head>
-		<title> New Item </title>
-		<link rel='stylesheet' href='css/bootstrap.css'>
-		<style type='text/css'>
-			.header {
-				font-size: 28px;
-				text-decoration: underline;
-				font-weight: bold;
-				color: #0F3A80
-			}
-			.titles {
-				font-size: 23px;
-				color: #4677C7;
-			}
-			.inputs {
-				width:500px;
-			}
-			.jianaTable {
-				border-bottom:1px solid #4677C7;
-				width : 100%;
-				padding-bottom:1px
-			}
-		</style>
-	</head>
-	<body>
-	<h1 class="header"> New Item </h1>
-	<form>
-	<table class="jianaTable">
-	<tr><td class="titles"> Item Name : </td><td> <input type="text" class='form-control inputs'><br></td></tr>
-	<tr><td class="titles"> Item Description : </td><td> <textarea rows='5' class='form-control inputs'></textarea><br> </td></tr>
-	<tr><td class="titles"> Categories : </td><td class="titles"> <input type="checkbox"> Hurricane <input type="checkbox"> Fire <input type="checkbox"> Tsunami</td></tr>
-	<tr><td><br> <input type="submit" value="Submit" class='btn btn-primary'> <input type="reset" value="Reset" class='btn btn-danger'><br><br> </tr></td>
-	</table>
-	</form>
-	</body>
+<head>
+<title>Kikrisis - New Item</title>
+<link href='main.css' rel='stylesheet'>
+<link href='css/bootstrap.css' rel='stylesheet'>
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="bodyLoad()">
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Search results</h4>
+      </div>
+      <div class="modal-body" id='mymodaltext'>
+        dfwfwe
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	<table style="height:100%;width:100%;max-height:100%;" cellspacing='0' cellpadding='0'><tr style="height:110px;"><td id='logo'>
+		<img src='kikrisis_logo.png' id="logoImg" onclick="window.location.href='index.html';" />
+	</td><td id='upNav'>
+		<table cellspacing='0' cellpadding='0'><tr>
+			<td class='sep'><input type='text' style='width:500px;' id='search' placeholder='Search for items...' class='form-control btn' /><input type='button' value='Search' id='btnSearch' class='btn btn-primary' /> </td>
+			<td class='sep'><input type='button' value='New Item' class='btn btn-primary' onclick="window.location.href='newItem.html';"  /></td>
+			<td class='sep last'>Welcome, <b>username</b>!<br><input type='button' value='Sign Out' class='btn btn-default' /></td>
+		</tr></table>
+	</td></tr><tr><td id='leftNav'>
+		<table cellspacing='0' cellpadding='0'>
+			<tr><td class='sep last'>
+				<h2>Pages</h2>
+				<ul class="nav nav-pills nav-stacked">
+				  	<li class="active"><a href="index.html">Home</a></li>
+					<li><a href='aboutus.html'>About Us</a></li>
+					<li><a href='contactus.html'>Contact Us</a></li>
+				</ul>
+				<h2>Categories</h2>
+				<ul class="nav nav-pills nav-stacked">
+					<li><a href='catHurricane.html'>Hurricane</a></li>
+					<li><a href='catFire.html'>Fire</a></li>
+					<li><a href='catTsunami.html'>Tsunami</a></li>
+				</ul>
+			</td></tr>
+		</table>
+	</td><td id="content" valign="top">
+			<h1 class="header"> New Item </h1>
+			<form>
+			<table class="jianaTable">
+			<tr><td class="titles"> Item Name : </td><td> <input type="text" class='form-control inputs'><br></td></tr>
+			<tr><td class="titles"> Item Description : </td><td> <textarea rows='5' class='form-control inputs'></textarea><br> </td></tr>
+			<tr><td class="titles"> Categories : </td><td class="titles"> <input type="checkbox"> Hurricane <input type="checkbox"> Fire <input type="checkbox"> Tsunami</td></tr>
+			<tr><td><br> <input type="submit" value="Submit" class='btn btn-primary'> <input type="reset" value="Reset" class='btn btn-danger'><br><br> </tr></td>
+			</table>
+			</form>
+	</td></tr></table>
+</body>
 </html>
