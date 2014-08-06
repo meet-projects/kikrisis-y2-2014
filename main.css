@@ -96,3 +96,12 @@ body {
 				width : 100%;
 				padding-bottom:1px
 			}
+/* yoni code */
+.home{
+	background:white;
+}
+.home:hover {
+	background:#00e1ff;
+	transition:background 1s;
+	border-radius: 5px;
+}
