@@ -58,36 +58,21 @@ body {
 	border-top-right-radius:0px;
 	border-bottom-right-radius:0px;
 	border-right:none;
+	display:inline;
+	cursor:text;
+	text-align:left;
+	height:34px;
+	-moz-user-select:text;
 }
 #btnSearch {
 	border:2px solid blue;
 	border-radius:5px;
 	border-top-left-radius:0px;
 	border-bottom-left-radius:0px;
-	background:#00E1FF;
-	transition:background 1s;
-}
-#btnSearch:hover {
-	background:#A0A0EE;
-}
-.btn {
-	border:2px solid blue;
-	border-radius:5px;
-	background:#00E1FF;
-	transition:background 1s;
-}
-.btn:hover {
-	background:#A0A0EE;
+	height:34px;
 }
 #logoImg {
 	width:250px;
 	height:100px;
 	cursor:pointer;
-}
-#leftNav li a:link, #leftNav li a:visited {
-	color:blue;
-	transition:color 0.6s;
-}
-#leftNav li a:hover {
-	color:#00E1FF;
 }
