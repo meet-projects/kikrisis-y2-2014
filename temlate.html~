@@ -29,7 +29,7 @@
 		<img src='KIKRISIS_logo.png' id="logoImg" onclick="window.location.href='index.html';" />
 	</td><td id='upNav'>
 		<table cellspacing='0' cellpadding='0'><tr>
-			<td class='sep'><input type='text' style='width:500px;' id='search' class='form-control btn' /><input type='button' value='Search' id='btnSearch' class='btn btn-primary' /> </td>
+			<td class='sep'><input type='text' style='width:500px;' id='search' placeholder='Search for items...' class='form-control btn' /><input type='button' value='Search' id='btnSearch' class='btn btn-primary' /> </td>
 			<td class='sep'><input type='button' value='New Item' class='btn btn-primary' onclick="window.location.href='newItem.html';"  /></td>
 			<td class='sep last'>Welcome, <b>username</b>!<br><input type='button' value='Sign Out' class='btn btn-default' /></td>
 		</tr></table>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<title> New Item </title>
+		<link rel='stylesheet' href='css/bootstrap.css'>
+		<style type='text/css'>
+			.header {
+				font-size: 28px;
+				text-decoration: underline;
+				font-weight: bold;
+				color: #0F3A80
+			}
+			.titles {
+				font-size: 23px;
+				color: #4677C7;
+			}
+			.inputs {
+				width:500px;
+			}
+			.jianaTable {
+				border-bottom:1px solid #4677C7;
+				width : 100%;
+				padding-bottom:1px
+			}
+		</style>
+	</head>
+	<body>
+	<h1 class="header"> New Item </h1>
+	<form>
+	<table class="jianaTable">
+	<tr><td class="titles"> Item Name : </td><td> <input type="text" class='form-control inputs'><br></td></tr>
+	<tr><td class="titles"> Item Description : </td><td> <textarea rows='5' class='form-control inputs'></textarea><br> </td></tr>
+	<tr><td class="titles"> Categories : </td><td class="titles"> <input type="checkbox"> Hurricane <input type="checkbox"> Fire <input type="checkbox"> Tsunami</td></tr>
+	<tr><td><br> <input type="submit" value="Submit" class='btn btn-primary'> <input type="reset" value="Reset" class='btn btn-danger'><br><br> </tr></td>
+	</table>
+	</form>
+	</body>
+</html>

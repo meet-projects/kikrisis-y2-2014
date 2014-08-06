@@ -76,22 +76,3 @@ body {
 	height:100px;
 	cursor:pointer;
 }
-/* jiana code */
-.header {
-				font-size: 28px;
-				text-decoration: underline;
-				font-weight: bold;
-				color: #0F3A80
-			}
-			.titles {
-				font-size: 23px;
-				color: #4677C7;
-			}
-			.inputs {
-				width:500px;
-			}
-			.jianaTable {
-				border-bottom:1px solid #4677C7;
-				width : 100%;
-				padding-bottom:1px
-			}
